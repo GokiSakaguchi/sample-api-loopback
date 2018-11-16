@@ -11,6 +11,9 @@ module.exports = function(app) {
       }, {
         name: 'Caffe Artigiano',
         city: 'Vancouver'
+      },{
+        name: 'Caffe Tokyo',
+        city: 'Tokyo'
       }], function(err, coffeeShops) {
         if (err) throw err;
   
